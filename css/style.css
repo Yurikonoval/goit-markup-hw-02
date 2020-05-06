@@ -1,7 +1,88 @@
 :root {
-    --primary-text-color: #000000:
-
-
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --main-background-color: #e5e5e5;
+  --our-team-section-background: #f5f4fa;
+  --footer-background: #2f303a;
 }
 /* main text color #212121; */
-/* secondsry text color  #757575;*/
+/* secondsry text color  #757575; */
+/* accent color #2196F3; */
+/* white color #ffffff; */
+body {
+  color: var(--primary-text-color);
+}
+/* header */
+header {
+  background-color: var(--white-color);
+}
+.logo {
+  color: var(--accent-color);
+}
+.logo > span {
+  color: var(--primary-text-color);
+}
+.nav-link {
+  color: var(--primary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.curent,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+.contacts-link {
+  color: var(--secondary-text-color);
+}
+main {
+  background-color: var(--main-background-color);
+}
+/* hero */
+.hero-title {
+  color: var(--white-color);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+/* our advantages */
+.section-title.hidden {
+  display: none;
+}
+.advantages a:hover,
+.advantages a:focus {
+  background-color: var(--accent-color);
+}
+.advantages h3 {
+  color: var(--primary-text-color);
+}
+.advantages p {
+  color: var(--secondary-text-color);
+}
+/* What we are doing */
+.we-are-doing h3 {
+  color: var(--white-color);
+}
+/* our team */
+.our-team-section {
+  background-color: var(--our-team-section-background);
+}
+.our-team p {
+  color: var(--secondary-text-color);
+}
+.social-network:hover,
+.social-network:focus {
+  background-color: var(--accent-color);
+}
+/* our clients */
+.clients a:hover,
+.clients a:focus {
+  color: var(--accent-color);
+}
+/* footer */
+footer {
+  background-color: var(--footer-background);
+}
