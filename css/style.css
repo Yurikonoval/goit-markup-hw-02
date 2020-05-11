@@ -32,7 +32,7 @@ body {
 .logo-header {
   color: var(--primary-text-color);
 }
-.list {
+.item {
   list-style: none;
 }
 .link {
